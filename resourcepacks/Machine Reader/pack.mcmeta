@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "Machine readable sign text.",
+        "pack_format": 15
+    }
+}
