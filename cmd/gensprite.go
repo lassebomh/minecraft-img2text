@@ -10,5 +10,5 @@ func GenSprite() {
 	mat := pkg.AsciiSpriteImg()
 	defer mat.Close()
 
-	gocv.IMWrite("./resourcepacks/Machine Reader/assets/minecraft/textures/font/ascii.png", mat)
+	gocv.IMWrite("./resourcepacks/MachineReader/assets/minecraft/textures/font/ascii.png", mat)
 }

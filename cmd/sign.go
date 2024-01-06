@@ -9,7 +9,7 @@ import (
 	"gocv.io/x/gocv"
 )
 
-func ReadSignLoop() {
+func ReadSignLoop(display int) {
 	locationSigns, err := pkg.AutoSavedLocationSigns("./out/signs.json")
 
 	if err != nil {
@@ -17,7 +17,7 @@ func ReadSignLoop() {
 	}
 
 	for {
-		screenshot, _ := screenshot.CaptureDisplay(0)
+		screenshot, _ := screenshot.CaptureDisplay(display)
 		img, _ := gocv.ImageToMatRGB(screenshot)
 
 		signsLines, signsAreas := pkg.GetSignsLines(img)
@@ -34,7 +34,7 @@ func ReadSignLoop() {
 				Area:      area,
 			}
 
-			locationSigns.AddOrUpdateSign("LocationA", sign)
+			locationSigns.AddOrUpdateSign("global", sign)
 
 		}
 
