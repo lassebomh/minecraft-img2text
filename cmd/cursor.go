@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 	"io/ioutil"
-	"lasse/minecraft-sign-reader/pkg"
+	"lassebomh/minecraft-img2text/pkg"
 	"os"
 	"strings"
 	"sync/atomic"

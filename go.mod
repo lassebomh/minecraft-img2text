@@ -1,4 +1,4 @@
-module lasse/minecraft-sign-reader
+module lassebomh/minecraft-img2text
 
 go 1.21.4
 

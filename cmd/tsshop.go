@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	"lasse/minecraft-sign-reader/pkg"
+	"lassebomh/minecraft-img2text/pkg"
 
 	"github.com/kbinani/screenshot"
 	"gocv.io/x/gocv"

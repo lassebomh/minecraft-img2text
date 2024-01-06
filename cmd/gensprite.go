@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"lasse/minecraft-sign-reader/pkg"
+	"lassebomh/minecraft-img2text/pkg"
 
 	"gocv.io/x/gocv"
 )

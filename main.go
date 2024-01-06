@@ -1,6 +1,6 @@
 package main
 
-import "lasse/minecraft-sign-reader/cmd"
+import "lassebomh/minecraft-img2text/cmd"
 
 func main() {
 
